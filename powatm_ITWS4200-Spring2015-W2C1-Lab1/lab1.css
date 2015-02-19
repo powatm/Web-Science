@@ -1,0 +1,90 @@
+li{
+    padding-top: .3em;
+}
+ul#tweets li{
+    list-style: none;
+    height: 5em;
+    margin-bottom: .5em;
+    text-align: center;
+    background-color :#3AA3C1;
+    color: white;
+    position: relative;
+}
+
+ul#tweets li:hover{
+    -webkit-transform: scale(1.065);
+    background: #5DB9D3;
+       transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+}
+
+ul#trends li:hover{
+    -webkit-transform: scale(1.105);
+    background: #FD7178;
+    transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+}
+#t4{
+    opacity: 0.5;
+}
+#tr4{
+    opacity: 0.5;
+}
+
+ul#trends li{
+    list-style: none;
+    height: 5em;
+    margin-bottom: .5em;
+    text-align: center;
+    background-color :#FC4C55;
+    color: white;
+    position: relative;
+    white-space:normal;
+    word-wrap: break-word;
+}
+
+ul#tweets{
+    background-color: #19A0A6;
+    height:inherit;
+    width: 37em;
+    padding: 1em;
+    margin-left: 2em;
+    float:left;
+}
+
+ul#trends{
+    background-color: #FB242F;
+    float: left;
+    width: 20em;
+    height:inherit;
+    padding: 1em;
+    margin-left: .5em;
+}
+section{
+    width: 65em;
+    height: auto;
+    padding-top: 21.2em;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+header{
+    color:black;
+    font-size: 3em;
+    width:10em;
+    margin: auto;
+    padding-top: .5em;
+}
+html{
+    background:url(twitter2.jpg)no-repeat center center;
+    height: 100%;
+    background-size: 100% 100%;
+    min-height: 935px;
+    min-width: 1300px;
+}

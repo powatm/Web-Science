@@ -1,0 +1,22 @@
+.jumbotron{
+    text-align: center;
+    opacity:.9;
+}
+#add_info{
+    margin: auto;
+}
+img{
+    opacity: .7;
+    width: 3em;
+    margin: auto;
+}
+#map {
+    height:50em;
+    overflow: hidden;
+    margin-top: -2em;
+    position: relative;
+}
+#dropdowns{
+    position: absolute; top: 30em; left: 35em; z-index: 99; background: white;
+}
+#wrapper { position: relative; }
