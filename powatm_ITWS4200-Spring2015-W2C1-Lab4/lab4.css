@@ -1,0 +1,88 @@
+li{
+    padding-top: .3em;
+    list-style: none;
+    width: auto;
+}
+
+ul#tweets li:hover{
+    -webkit-transform: scale(1.065);
+    background: #5DB9D3;
+    transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+}
+
+ul#trends li:hover{
+    -webkit-transform: scale(1.105);
+    background: #FD7178;
+    transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+}
+#t4{
+    opacity: 0.5;
+}
+#tr4{
+    opacity: 0.5;
+}
+ul#tweets li{
+    height: 5em;
+    margin-bottom: .5em;
+    padding: .5em;
+    text-align: center;
+    background-color :#3AA3C1;
+    color: white;
+}
+
+ul#trends li{
+    height: 5em;
+    padding: .5em;
+    margin-bottom: .5em;
+    text-align: center;
+    background-color :#FC4C55;
+    color: white;
+    white-space:normal;
+    word-wrap: break-word;
+}
+ul#tweets{
+    margin-right: 2em;
+    flex-grow: 1;
+    text-align: center;
+}
+ul#trends{
+    width: 500px; 
+    margin: auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1250px) {
+  ul#tweets{
+    font-size: .9em;
+    width: 50%;
+  }
+  ul#trends{
+    width: 30%;
+    font-size: .9em;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  ul#tweets{
+    font-size: .75em;
+      height: 100%;
+  }
+  ul#trends{
+    font-size: .75em;
+      height: 100%;
+  }
+}
+
+.ui-content{
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+}

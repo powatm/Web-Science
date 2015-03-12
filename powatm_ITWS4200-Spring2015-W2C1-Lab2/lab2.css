@@ -1,6 +1,6 @@
 .jumbotron{
     text-align: center;
-    opacity:.9;
+    background-color: rgb(160,160,160,.5);
 }
 #add_info{
     margin: auto;
@@ -17,6 +17,13 @@ img{
     position: relative;
 }
 #dropdowns{
-    position: absolute; top: 30em; left: 35em; z-index: 99; background: white;
+    position: absolute; 
+    z-index: 99; 
+    background: white;
+    left: 36%;
+    padding: .3em;
+     overflow: auto;
 }
-#wrapper { position: relative; }
+#wrapper { 
+    position: relative; 
+}

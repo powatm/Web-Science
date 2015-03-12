@@ -1,0 +1,123 @@
+li{
+    padding-top: .3em;
+    list-style: none;
+    width: auto;
+}
+
+h1{
+    text-align: center;
+    background: #989898;
+    font-family:Console;
+    color: white;
+}
+
+#page{
+    background: whitesmoke;
+}
+
+#form1{
+    padding-top: 2em;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+ul#tweets li:hover{
+    -webkit-transform: scale(1.065);
+    background: #5DB9D3;
+    transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+}
+
+ul#trends li:hover{
+    -webkit-transform: scale(1.105);
+    background: #FD7178;
+    transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+}
+#t4{
+    opacity: 0.5;
+}
+#tr4{
+    opacity: 0.5;
+}
+ul#tweets li{
+    height: 4.1em;
+    margin-bottom: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: .5em;
+    text-align: center;
+    background-color :#3AA3C1;
+    color: white;
+}
+
+ul#trends li{
+    height: 4.1em;
+    padding: .75em;
+    margin-bottom: .5em;
+    text-align: center;
+    background-color :#FC4C55;
+    color: white;
+    white-space:normal;
+    word-wrap: break-word;
+}
+ul#tweets{
+    margin-right: 2em;
+    width: 60%;
+}
+ul#trends{
+    width: 40%;
+    margin-top: 1em;
+}
+
+.error{
+    font-size: .8em;
+    color: red;
+    float: right;
+    margin-bottom: 1em;
+}
+.error2{
+    font-size: .8em;
+    color: red;
+    float: right;
+    margin-bottom: 1em;
+    margin-right: .2em;
+}
+
+@media only screen and (max-width: 1200px) {
+  ul#tweets li{
+    height: 6.5em;  
+  }
+  ul#trends li{
+    height: 6.5em;  
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  ul#tweets{
+    height: 100%;
+  }
+  ul#trends{
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  ul#tweets li{
+    height: auto;
+  }
+}
+
+.ui-content{
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+}
