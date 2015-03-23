@@ -1,0 +1,28 @@
+<DOCTYPE html>
+<html>
+<head>
+    <title>Twitter Ticker</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <style>
+       .err{
+        color: red;
+       }
+    </style>
+    <div ng-app="">
+    <form id="form1" name="btn_form" method="post" action="getGreeting" novalidate>
+        Name: 
+        <input type="text" name="name" ng-model="btn.num" min="" required/>
+        <span class="err" ng-show="btn_form.name.$error.required">
+    required!</span>
+  <span class="err" ng-show="btn_form.name.$error.text">
+    valid text</span>
+        <button ng-disabled="!btn_form.$valid">Click Here</button>
+    </form>
+    <div id="greeting"></div>
+    </div>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+</body>
+</html>
